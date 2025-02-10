@@ -1,0 +1,29 @@
+
+
+.footer-above-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+
+    background-color: #f5f7fa;
+    margin-top: 5rem;
+}
+
+.footer-above-container h1 {
+    font-size: 50.55px;
+    text-align: center;
+    color: #4d4d4d;
+}
+
+.small {
+    font-size: 11.14px;
+}
+
+
+@media screen and (max-width: 520px) {
+    .footer-above-container h1 {
+        font-size: 30px;
+    }
+}

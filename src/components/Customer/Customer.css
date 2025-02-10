@@ -1,0 +1,70 @@
+.customer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+    background-color: #f5f7fa;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    margin-top: 4rem;
+
+}
+
+
+.customer-image {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-content {
+  /* flex: 1; */
+  /* width: 50%; */
+  /* margin-left: -150px; */
+  width: 50%;
+}
+
+.customer-content p {
+    margin-top: 0px;
+}
+
+.customer-brand-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    gap: 0.5rem;
+}
+
+.name {
+    font-size: 13.92px;
+    color: #4caf4f;
+}
+
+.British {
+    font-size: 13.92px;
+    color: #b3b4b6;
+}
+
+.line_height {
+    color: #4d4d4d;
+    line-height: 16.7px;
+}
+
+.log-1, .log-2, .log-3, .log-4, .log-5, .log-5 {
+    width: fit-content;
+}
+
+
+@media screen and (max-width: 570px) {
+    .customer-brand-logo {
+        flex-direction: column;
+    }
+}
+
+

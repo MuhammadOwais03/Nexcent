@@ -1,0 +1,79 @@
+
+
+.community-updates-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.community-updates-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.community-updates-content h1 {
+    color: #4d4d4d;
+    font-size: 25.06;
+}
+
+.community-updates-content p {
+    width: 40%;
+}
+
+.community-updates-card-content p {
+    font-size: 13.92px;
+
+}
+
+.community-updates-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+.community-updates-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.community-updates-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f7fa;
+    width: 220px;
+    height: 124px;
+    margin-top: -50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 6px;
+    padding: 0.4rem;
+}
+
+.community-updates-card-content p {
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.community-updates-card-content a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
